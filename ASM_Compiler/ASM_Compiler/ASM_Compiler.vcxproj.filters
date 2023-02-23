@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ASM_Compiler.cpp" />
+    <ClCompile Include="Viewer.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependencies.h" />
+    <ClInclude Include="Dictionary.h" />
+    <ClInclude Include="Viewer.h" />
+    <ClInclude Include="Reserved_identifiers_table.h" />
+    <ClInclude Include="Tokenizer.h" />
+  </ItemGroup>
+</Project>

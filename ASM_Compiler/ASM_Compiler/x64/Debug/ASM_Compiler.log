@@ -1,0 +1,117 @@
+﻿  Tokenizer.cpp
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(348,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(397,48): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(402,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(407,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(461,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(586,1): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(584): message : while compiling class template member function 'std::pair<void *,int> bnf::_Parser<U>::_pre_call(void *)'
+          with
+          [
+              U=bnf::Interface<bool>
+          ]
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(658): message : see reference to class template instantiation 'bnf::_Parser<U>' being compiled
+          with
+          [
+              U=bnf::Interface<bool>
+          ]
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\bnflite.h(667): message : see reference to function template instantiation 'int bnf::_Analyze<bnf::Interface<bool>>(bnf::_Tie &,U &,const char *(__cdecl *)(const char *))' being compiled
+          with
+          [
+              U=bnf::Interface<bool>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(158,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=__int64
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(245): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=__int64,
+              _Other=__int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(245): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=__int64,
+              _Other=__int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(245): message : see reference to function template instantiation 'std::tuple<int,std::string>::tuple<std::_Exact_args_t,_Ty,const char(&)[4],0>(_Tag,_This2 &&,const char (&)[4])' being compiled
+          with
+          [
+              _Ty=__int64,
+              _Tag=std::_Exact_args_t,
+              _This2=__int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(245): message : see reference to function template instantiation 'std::tuple<int,std::string>::tuple<std::_Exact_args_t,_Ty,const char(&)[4],0>(_Tag,_This2 &&,const char (&)[4])' being compiled
+          with
+          [
+              _Ty=__int64,
+              _Tag=std::_Exact_args_t,
+              _This2=__int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(327): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Exact_args_t,std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,_Ty,const char(&)[4],0>(_Tag,_This2,_Ty &&,const char (&)[4])' being compiled
+          with
+          [
+              _Elem=char,
+              _Ty=__int64,
+              _Tag=std::_Exact_args_t,
+              _This2=std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\tuple(327): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Exact_args_t,std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,_Ty,const char(&)[4],0>(_Tag,_This2,_Ty &&,const char (&)[4])' being compiled
+          with
+          [
+              _Elem=char,
+              _Ty=__int64,
+              _Tag=std::_Exact_args_t,
+              _This2=std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,_Ty,const char(&)[4],0>(_This2,_Ty &&,const char (&)[4]) noexcept(false)' being compiled
+          with
+          [
+              _Elem=char,
+              _Ty=__int64,
+              _This2=std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,_Ty,const char(&)[4],0>(_This2,_Ty &&,const char (&)[4]) noexcept(false)' being compiled
+          with
+          [
+              _Elem=char,
+              _Ty=__int64,
+              _This2=std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,__int64,const char(&)[4]>(_Alloc &,_Objty *const ,std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>> &,__int64 &&,const char (&)[4])' being compiled
+          with
+          [
+              _Alloc=std::allocator<lextabline>,
+              _Ty=std::tuple<std::string,int,std::string>,
+              _Elem=char,
+              _Objty=std::tuple<std::string,int,std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,__int64,const char(&)[4]>(_Alloc &,_Objty *const ,std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>> &,__int64 &&,const char (&)[4])' being compiled
+          with
+          [
+              _Alloc=std::allocator<lextabline>,
+              _Ty=std::tuple<std::string,int,std::string>,
+              _Elem=char,
+              _Objty=std::tuple<std::string,int,std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : see reference to function template instantiation 'void std::vector<lextabline,std::allocator<lextabline>>::_Emplace_back_with_unused_capacity<std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,_Ty,const char(&)[4]>(std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>> &,_Ty &&,const char (&)[4])' being compiled
+          with
+          [
+              _Elem=char,
+              _Ty=__int64
+          ]
+F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\ASM_Compiler\Tokenizer.cpp(124): message : see reference to function template instantiation 'void std::vector<lextabline,std::allocator<lextabline>>::emplace_back<std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>&,__int64,const char(&)[4]>(std::sub_match<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>> &,__int64 &&,const char (&)[4])' being compiled
+          with
+          [
+              _Elem=char
+          ]
+  ASM_Compiler.vcxproj -> F:\Study\Course work (2'nd course, second half)\Compiler\ASM_Compiler\x64\Debug\ASM_Compiler.exe
